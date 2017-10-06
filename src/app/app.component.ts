@@ -5,6 +5,7 @@ export class Hero {
  name: string;
 }
 
+// tworzenie listy
 const HEROES: Hero[] = [
  { id: 11, name: 'Mr. Nice' },
  { id: 12, name: 'Narco' },
@@ -39,6 +40,7 @@ const HEROES: Hero[] = [
      </div>
    </div>
  `,
+
  styles: [`
    .selected {
      background-color: #CFD8DC !important;
